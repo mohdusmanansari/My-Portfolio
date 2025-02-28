@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details of Weather App</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: #F5F7FA;
+            height: 120vh;
+        }
+        #main{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            margin-left: 10%;
+            height: 110vh;
+            width: 80%;
+            margin-top: 50px;
+            background: #fff;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            /* border: solid 2px #000;   */
+        }
+        i{
+            margin-top: -10px;
+            letter-spacing: 2px;
+            font-size: 20px;
+        }
+        #img{
+            margin-top: 50px;
+        }
+        img{
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            height: 300px; 
+            cursor: pointer;
+        }
+        img:hover {
+            transform: scale(1.1); 
+        }
+        h1{
+            margin-top: 20px;
+        }
+        #details{
+            width: 60%;
+            font-size: 20px;
+        }
+        #buttons{
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            margin-top: 10px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            border: none;
+        }
+        button:hover{
+            cursor: pointer;
+            color: #fff;
+        }
+            
+    
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>Weather Check Application</h1>
+        <i>using built  HTML, CSS or  JavaScript.</i>
+        <div id="img">
+            <img src="images/WeatherAppSS2.png" height="300px" width="200px" alt="">
+        </div>
+        <div id="details">
+            <p>
+                A simple and interactive weather application that provides real-time weather updates based on user location or searched cities. It fetches data from a weather API to display temperature, humidity, wind speed, and other details. The app features a clean and responsive UI for a seamless user experience. Stay updated with accurate weather forecasts anytime, anywhere!_ ☀️🌧️❄️
+            </p>
+        </div>
+        <div id="buttons">
+            <a href="https://github.com/mohdusmanansari/Check-Weather">
+                <button style="background-color:  #84f884;" >Source code</button>
+            </a>
+            <a href=" https://mohdusmanansari.github.io/Check-Weather/">
+                <button style="background: #95adf3;">Live Demo</button>
+            </a>
+            <a href="project.html">
+                <button style="background: #f08989;">Back to Project</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

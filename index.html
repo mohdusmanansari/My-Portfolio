@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Card</title>
+    <linkhref="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f7fa;
+            margin: 0;
+
+        }
+        .card {
+            width: 400px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 10px 0px 10px rgba(29, 0, 0, 0.398);
+            position: relative;
+            border: 2px solid #fff;
+        }
+        .header {
+            /* background: #36495A; */
+            background: #9da39e;
+            color: white;
+            padding: 10px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .profile-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px 0;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        .profile-info {
+            flex-grow: 1;
+            margin-top: -30px;
+        }
+        .profile-info h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .profile-info p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            
+        }
+        .footer {
+            /* background: #36495A; */
+            background: #9da39e;
+            color: white;
+            padding: 10px;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 30px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            /* color: white; */
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+            margin-top: -30px;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            /* background: #36495A; */
+            background: royalblue;
+            color: white;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        button:hover {
+            /* background: #799dbd; */
+            background: blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">My Portfolio Card</div>
+        <div class="profile-section">
+            <img src="images/usmaan.jpg" alt="Profile" class="profile-img">
+            <div class="profile-info">
+                <h2>Mohd.Usmaan</h2>
+                <p>Full Stack Developer | Web Enthusiast</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="window.location.href='https://yourwebsite.com'">Visit Me</button>
+            <a href="project.html"><button>Projects</button></a>
+        </div>
+        <div class="footer">
+            <img src="images/twitter.png" height="40px" width="40px" alt="">
+            <img src="images/in.png" height="40px" width="40px"  alt="">
+            <img src="images/github.png" height="40px" width="40px"  alt="">
+        </div>
+    </div>
+</body>
+</html>
